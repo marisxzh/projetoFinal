@@ -35,3 +35,15 @@ Uma branch é um ponteiro para um commit e permite desenvolver uma funcionalidad
 
 O rebase reaplica commits sobre outra base, gerando um histórico linear, mas reescreve o histórico e deve ser usado apenas em branches locais. O merge preserva o histórico original e é indicado para branches compartilhadas.
 
+## 6. Trabalho em equipe
+
+O GitHub Flow organiza o trabalho em etapas: criar uma branch, fazer commits, publicar, abrir um Pull Request, passar por revisão e fazer o merge na `main`. O Pull Request deve ter título claro, descrição do motivo da mudança e vínculo com a Issue por meio de `Closes #N`, que a fecha automaticamente. 
+As Issues registram tarefas e problemas, e a revisão de código (Code Review) melhora a qualidade das alterações. O Gitflow é um modelo mais rígido, usado em projetos com ciclos de lançamento definidos.
+
+## 7. GitHub Pages
+
+O GitHub Pages hospeda gratuitamente páginas estáticas (HTML, CSS e JavaScript) a partir de um repositório. Para publicar, é necessário um arquivo `index.html` na raiz e a ativação da publicação em *Settings → Pages*, escolhendo a branch e a pasta de origem.
+
+## Considerações finais
+
+Esses conceitos foram praticados ao longo do curso em repositórios locais, conexões com o GitHub, branches, conflitos e Pull Requests, o que permitiu compreender como o Git e o GitHub se complementam no controle de versão e no trabalho em equipe.

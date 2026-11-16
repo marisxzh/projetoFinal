@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fundamentos de Git e GitHub | Portfólio</title>
+
+
+
+  <style>
+    :root {
+      --fundo: #f6f4fb;
+      --texto: #1f1b2e;
+      --suave: #5d5873;
+      --destaque: #6b3fa0;
+      --linha: #d9d3e8;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--fundo);
+      color: var(--texto);
+      line-height: 1.7;
+    }
+
+    header, main, footer {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+    }
+
+    header { padding-top: 3.5rem; padding-bottom: 1.5rem; }
+
+    h1 {
+      font-size: clamp(2rem, 6vw, 3rem);
+      line-height: 1.15;
+      margin: 0 0 0.75rem;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin: 2.5rem 0 1rem;
+    }
+
+    .apresentacao { color: var(--suave); font-size: 1.1rem; margin: 0; }
+
+    .topicos {
+      list-style: none;
+      margin: 0;
+      padding: 0 0 0 1.25rem;
+      border-left: 3px solid var(--destaque);
+    }
+
+    .topicos li { margin-bottom: 1.25rem; }
+    .topicos strong { display: block; }
+    .topicos span { color: var(--suave); }
+
+    code {
+      font-family: Consolas, "Courier New", monospace;
+      background: #ece7f6;
+      padding: 0.1rem 0.35rem;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+
+    a { color: var(--destaque); }
+    a:focus-visible { outline: 3px solid var(--destaque); outline-offset: 2px; }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.25rem;
+      padding-bottom: 3rem;
+      border-top: 1px solid var(--linha);
+      color: var(--suave);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+
+
+<body>
+  <header>
+    <h1>Fundamentos de Git e GitHub</h1>
+    <p class="apresentacao">
+      Projeto Integrador Final do curso do CEFET-MG. Esta página resume o que
+      aprendi sobre controle de versão e trabalho em equipe com Git e GitHub.
+    </p>
+  </header>
+
+  <main> 
+    <section>
+      <h2>Conteúdos do curso</h2>
+      <ul class="topicos">
+        <li>
+          <strong>Ciclo de vida local</strong>
+          <span>Registrar mudanças em etapas: <code>add</code>, <code>commit</code>, <code>log</code> e <code>diff</code>.</span>
+        </li>
+        <li>
+          <strong>Desfazendo erros</strong>
+          <span>Corrigir o histórico com <code>restore</code>, <code>commit --amend</code>, <code>revert</code> e <code>stash</code>.</span>
+        </li>
+        <li>
+          <strong>GitHub e SSH</strong>
+          <span>Enviar e baixar código com <code>push</code>, <code>pull</code> e <code>clone</code>, usando chave SSH.</span>
+        </li>
+        <li>
+          <strong>Branches, merge e rebase</strong>
+          <span>Trabalhar em linhas separadas e resolver conflitos na integração.</span>
+        </li>
+        <li>
+          <strong>Trabalho em equipe</strong>
+          <span>Pull Requests, Code Review e Issues, que fecham com <code>Closes #N</code>.</span>
+        </li>
+        <li>
+          <strong>GitHub Pages</strong>
+          <span>Publicar páginas estáticas na web, direto de um repositório.</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  
+  <footer>
+    <p>
+      Feito por Mariana ·
+      <a href="https://github.com/marisxzh/projetoFinal">Repositório no GitHub</a>
+    </p>
+  </footer>
+</body>
+</html>
